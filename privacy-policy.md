@@ -1,87 +1,181 @@
 # Privacy Policy
 
-**Last updated: April 27, 2026**
+**Effective date / Last updated: June 20, 2026**
 
-MamaGuide is operated by **MamaGuide Team**.  
-Contact: support.mamaguide@gmail.com
+MamaGuide ("the App") is operated by **MamaGuide Team**, a solo developer based in **Greece**.
+
+**Contact:** support.mamaguide@gmail.com
 
 ---
 
 ## 1. Overview
 
-MamaGuide ("the App") is a pregnancy and newborn care guide for parents. We are committed to protecting your privacy. This Privacy Policy explains how we handle your information.
+MamaGuide is an **offline, on-device** pregnancy and newborn-care app for parents and caregivers. This Privacy Policy explains, in plain language, how your information is handled.
+
+The single most important fact: **we operate no servers and no backend, and the personal information you enter in the App stays on your own device. We do not receive it, transmit it, or have access to it.** The only information that ever leaves your device is (a) files you choose to export yourself, and (b) the data needed to process an optional paid purchase through Google Play and RevenueCat (explained in Section 4).
+
+We have written this policy to describe what actually happens to your data, rather than to make broad legal-conclusion claims. For example, we do not simply label the App "GDPR compliant" or promise that your data is "100% secure" — instead we describe the facts so you can judge them. No software or device can be guaranteed fully secure.
 
 ---
 
-## 2. Data We Collect
+## 2. Who is responsible (Data Controller)
 
-**We do not collect, transmit, or store any personal data on our servers.**
+The data controller for the processing described in this policy is **MamaGuide Team** (Greece), contactable at support.mamaguide@gmail.com.
 
-All data you enter in MamaGuide (baby profile, feeding logs, sleep logs, diaper logs, milestones, pregnancy information, wellness entries, checklists) is stored **exclusively on your device** using local storage (AsyncStorage).
+- For the **information you enter in the App** (baby profile, logs, growth, photos, pregnancy tools, etc.): this information is created and held by **you, on your own device**, for your own purposes. We never receive or process it, so on our side we do not determine the purposes or means of any processing of that data.
+- For the **purchase flow** (Google Play + RevenueCat): we act as a controller for the limited entitlement data described in Section 4, and we use RevenueCat as our processor to confirm whether you have an active entitlement.
 
-We do not have access to this data. We cannot see it, share it, or sell it.
-
----
-
-## 3. Backup Feature
-
-MamaGuide offers an optional backup feature. When you choose to create a backup:
-
-- The app generates a JSON file containing your local data.
-- This file is shared directly to a destination **you choose** (Google Drive, iCloud, email, Files app, etc.).
-- MamaGuide Team does not receive, access, or store this file at any point.
-- The backup is stored solely in the service you selected.
+We do not currently believe we are required to appoint a Data Protection Officer or an EU representative, because we are established in the EU and do not carry out large-scale processing of personal data on our side.
 
 ---
 
-## 4. In-App Purchases & Subscriptions
+## 3. Data stored only on your device
 
-MamaGuide offers optional premium subscriptions processed through **Google Play**. When you make a purchase:
+All the content you create in MamaGuide is stored **only on your device** using local storage (AsyncStorage). This includes, for example:
 
-- Payment is handled entirely by Google Play.
-- We use **RevenueCat** to validate your subscription status. RevenueCat receives a random anonymous user identifier to verify your entitlement — no name, email, or personal data is shared.
-- We do not store your payment information.
+- Baby profile
+- Feeding, sleep, diaper, tummy-time and vitamin-D logs
+- Growth measurements and WHO-percentile views (informational)
+- Milestones
+- Baby photos
+- Pregnancy information and tools (kick counter, contraction timer, birth plan, hospital-bag checklist)
+- Multi-country vaccine schedule and reminders (GR / DE / GB / US)
+- Notes and checklists
 
-RevenueCat's Privacy Policy: https://www.revenuecat.com/privacy
+**We never receive, transmit, store, or have access to any of this. We cannot see it, share it, or sell it.**
+
+### Health / special-category data
+
+Some of the information above is **health-related data about you and your baby** (for example pregnancy details and growth measurements). Under the GDPR this can be **"special category" data (Article 9)**, which deserves extra protection.
+
+Because this data stays only on your device and we never process it on our side, we do not rely on a separate Article 9 condition (such as explicit consent) for processing by us — there is no processing by us. However:
+
+- We acknowledge clearly that this is sensitive information.
+- **Protecting your device is your responsibility** (for example with a screen lock and device encryption), as is protecting any export file you create.
+- If we ever add a feature that transmits or syncs this data off your device, we will first obtain your **explicit consent** as required by Article 9(2)(a) where applicable, and update this policy before doing so.
 
 ---
 
-## 5. Analytics & Tracking
+## 4. In-app purchases (data that does leave your device)
 
-We do **not** use any analytics, tracking, advertising SDKs, or third-party data collection tools.
+MamaGuide offers an **optional** paid Premium upgrade. This is the one part of the App where some data is transmitted off your device.
+
+- **Payment** is handled entirely by **Google Play**. Google is the payment processor and acts as an independent controller for the payment. We never see or store your payment-card details.
+- We use **RevenueCat** to confirm whether you have an active Premium entitlement (entitlement validation). **RevenueCat acts as our processor.**
+
+**What RevenueCat receives.** To validate your purchase, RevenueCat receives a **pseudonymous, app-generated identifier** (a random ID generated by the RevenueCat SDK on your device — not your name or email), together with technical data such as your **purchase/transaction history**, **device and platform information**, and **country derived from your IP address**.
+
+> Note on wording: although the App configures RevenueCat in "anonymous" mode (we never set a name, email, or account), a persistent identifier tied to your purchases is, under the GDPR, generally treated as **pseudonymous personal data** rather than truly "anonymous". We describe it this way to be accurate, and you should not read "anonymous" as meaning the data can never be linked to you.
+
+- **Purpose:** to deliver and validate the paid upgrade you chose (confirm/restore entitlement), and the technical operation RevenueCat performs to provide that service.
+- **Legal basis:** **Article 6(1)(b) GDPR — performance of a contract** (delivering the upgrade you purchased), together with our **legitimate interests** (Art. 6(1)(f)) in the limited technical operation and fraud/abuse prevention RevenueCat carries out.
+- **No special-category (health) data** is sent to RevenueCat or Google in connection with the purchase.
+
+**International transfers.** RevenueCat and its sub-processors (which may include providers such as AWS, Google, Cloudflare, Fastly and others) are located in the **United States**. This means your entitlement/transaction data is transferred **outside the EEA, to the USA**. RevenueCat states that it relies on the **EU Standard Contractual Clauses** (and equivalent UK/Swiss mechanisms) as the safeguard for these transfers, as set out in its Data Processing Addendum. We do not independently warrant the adequacy of these safeguards; we pass on RevenueCat's stated position and link to its current terms below so you can review them.
+
+- RevenueCat Privacy Policy: https://www.revenuecat.com/privacy
+- RevenueCat Data Processing Addendum: https://www.revenuecat.com/dpa
+- Google Play / Google Privacy Policy: https://policies.google.com/privacy
 
 ---
 
-## 6. Children's Privacy
+## 5. No analytics, tracking, or advertising
 
-MamaGuide is designed for use by parents and caregivers. It is not directed at children under 13. We do not knowingly collect personal information from children.
+We do **not** use any analytics, tracking, advertising SDKs, profiling, automated decision-making, or third-party data-collection tools in the App. We do not sell or share your data for advertising.
+
+(Note: RevenueCat and Google Play necessarily process the limited purchase data described in Section 4. We do not control, and are not describing here, any separate processing those companies carry out under their own policies.)
 
 ---
 
-## 7. Permissions
+## 6. Permissions
 
-MamaGuide may request the following device permissions:
+MamaGuide may request the following device permissions. **All are optional and the App works without them.**
 
 | Permission | Purpose |
 |------------|---------|
-| Notifications | Optional reminders (feeding, vitamin D, appointments) |
-| Photo Library | Optional baby photo for profile |
-| Storage | Saving and reading backup files |
-
-All permissions are optional. The app functions without them.
+| Notifications | Optional reminders (feeding, vitamin D, vaccines, appointments) |
+| Photo Library | Optional baby photo for the profile |
+| Storage | Saving and reading backup/export files |
 
 ---
 
-## 8. Changes to This Policy
+## 7. Data export and device backups
 
-We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. Continued use of the App after changes constitutes acceptance.
+### 7.1 Exports you initiate
+Your in-App data leaves your device only through exports **you** choose to create:
+
+- **JSON backup** — for transferring your data to a new device.
+- **Pediatrician CSV report** — a summary of selected logs to share with your health provider.
+
+In both cases the file is shared directly to a destination **you choose** (e.g. Google Drive, email, your Files app). **MamaGuide Team never receives, accesses, or stores these files.** Because exports may contain health data, **protecting the exported file is your responsibility.**
+
+### 7.2 Operating-system backups (outside our control)
+Your device's operating system may copy app data to **your own** cloud account (for example Android auto-backup / Google Drive). This happens between your device and your own cloud provider, **outside our control** — we never receive that copy. You can manage or disable OS-level backups in your device settings.
 
 ---
 
-## 9. Contact
+## 8. Data retention
 
-If you have any questions about this Privacy Policy, please contact us:
+- **On-device data:** kept on your device until **you** delete it (in-app reset) or uninstall the App. We hold nothing, so there is nothing for us to retain or delete on our side.
+- **Purchase data (RevenueCat / Google):** retained by those providers in line with their own policies and any applicable financial/tax record-keeping rules. We do not set or control those providers' retention periods.
 
-**Email:** support.mamaguide@gmail.com  
-**App:** MamaGuide  
-**Operated by:** MamaGuide Team
+---
+
+## 9. Your rights
+
+For the **on-device data**, you remain in full control at all times:
+
+- **Access** — view all your data directly in the App.
+- **Rectification** — edit your entries in the App.
+- **Portability** — use the JSON / CSV exports (Section 7).
+- **Erasure** — use the in-app reset, or uninstall the App.
+
+For the **purchase data** held via RevenueCat and Google, you also have GDPR rights (access, rectification, erasure, restriction, objection, portability, and withdrawal of consent where consent is the basis used). You can ask us to help by contacting support.mamaguide@gmail.com — we will action requests within our control (for example asking RevenueCat to delete the app-user record) and forward others — and you may also contact RevenueCat and Google directly. Because the identifier is pseudonymous and not linked to your name or email on our side, we may need additional information from you (such as the Google Play order ID) to locate the relevant record; if we cannot identify the data, some requests may not be actionable by us (GDPR Art. 11).
+
+We do not operate user accounts that you create, so there is no separate account-deletion web page; deletion of on-device data is done in-App or by uninstalling.
+
+---
+
+## 10. Right to lodge a complaint
+
+If you are in the EU/EEA you have the right to lodge a complaint with a data-protection supervisory authority — in particular in your country of habitual residence, place of work, or the place of an alleged infringement (GDPR Art. 77).
+
+In Greece, the supervisory authority is the **Hellenic Data Protection Authority** (Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα):
+
+- Website: https://www.dpa.gr
+- Address: Kifissias 1-3, 115 23 Athens, Greece
+- Telephone: +30 210 6475600
+
+You may also complain to the supervisory authority in your own EU/EEA member state. We would appreciate the chance to address your concern first via support.mamaguide@gmail.com.
+
+---
+
+## 11. Children's privacy
+
+MamaGuide is for **parents and caregivers** and is not directed at children. Information you enter about your baby is **a child's personal data**, but it is entered **voluntarily by you, the parent or guardian, and it stays on your device.** We do not collect or receive children's data — nothing about your child reaches us. (The baby photos and health entries described in Section 3 live only on your device.)
+
+---
+
+## 12. Security
+
+We operate no servers, so there is no server-side store of your data for an attacker to reach on our side. Your in-App data is protected primarily by your **device's own security** (screen lock, device encryption). No method of storage or transmission is completely secure, and we cannot guarantee absolute security; please keep your device and any exported files secure.
+
+---
+
+## 13. Medical disclaimer (cross-reference)
+
+MamaGuide provides general, educational information and personal self-tracking tools. **It is not medical advice and does not diagnose or treat.** Please see the in-App medical disclaimer and our Terms of Service for full details, and always consult a qualified health professional. In an emergency, contact your local emergency services (in Greece: **EKAB 166** for ambulance, or **112** EU-wide).
+
+---
+
+## 14. Changes to this policy
+
+We may update this Privacy Policy from time to time. We will post changes on this page with an updated date and, for **material** changes, provide a meaningful in-App notice rather than relying only on "continued use = acceptance". The published version (linked from the App and the store listing) will always be the current one.
+
+---
+
+## 15. Contact
+
+**Email:** support.mamaguide@gmail.com
+**App:** MamaGuide
+**Operated by:** MamaGuide Team (Greece)
